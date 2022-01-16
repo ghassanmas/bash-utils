@@ -7,4 +7,3 @@ create_ssh_key(){
  eval "$(ssh-agent -s)"
 }
 
-ec2_
