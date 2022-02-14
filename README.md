@@ -14,6 +14,10 @@ Always start with `#!/bin/bash` to explicitly say its a bash, other wise it migh
 
 `docker rmi $(docker images -f "dangling=true" -q)`
 
+#### System prune for docker
+ 
+ `docker system prune`
+
 ### Loops in bash 
 
 Defineing an Array can be as:
