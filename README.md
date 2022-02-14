@@ -47,3 +47,7 @@ ref: https://unix.stackexchange.com/questions/188285/how-to-copy-a-file-from-a-r
 
 
 Worth checking the `rsync` command since it wouldn't recopy the files which can be useful if the getting the files is common
+
+
+### References
+- Cleaning up docker [github gist](https://gist.github.com/F21/f6614b8557768afbe8ed)
