@@ -18,6 +18,10 @@ Always start with `#!/bin/bash` to explicitly say its a bash, other wise it migh
  
  `docker system prune`
 
+#### Go to docker bash as root
+Suppose the running container called `mycon`
+The commonad to enter as root would be `docker exec -it -u 0 mycon bash`
+
 ### Loops in bash 
 
 Defineing an Array can be as:
